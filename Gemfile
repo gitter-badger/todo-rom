@@ -21,7 +21,7 @@ gem 'rom-rails', '0.3.0'
 
 # Gems related to the Tests of project.
 #
-gem_group(:test) do
+group :test do
   # RSpec is a behavior-driven development (BDD) framework for the Ruby
   #   programming language.
   #
