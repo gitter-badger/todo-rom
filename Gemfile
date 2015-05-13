@@ -1,5 +1,24 @@
 source 'https://rubygems.org'
 
+# Ruby Object Mapper (ROM) is an experimental Ruby library with the goal to
+#   provide powerful object mapping capabilities without limiting the full
+#   power of your datastore
+#
+gem 'rom', '0.6.0'
+
+# SQL databases support for ROM
+#
+gem 'rom-sql', '0.4.0'
+
+# Rails integration for Ruby Object Mapper which ships with:
+#   * Params sanitizer/coercer extension
+#   * Validation extension based on ActiveModel
+#   * Relation generators
+#   * Mapper generators
+#   * Command generators
+#
+gem 'rom-rails', '0.3.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 #
 gem 'rails', '4.1.0'
