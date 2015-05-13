@@ -19,6 +19,33 @@ gem 'rom-sql', '0.4.0'
 #
 gem 'rom-rails', '0.3.0'
 
+# Gems related to the Tests of project.
+#
+gem_group(:test) do
+  # RSpec is a behavior-driven development (BDD) framework for the Ruby
+  #   programming language.
+  #
+  gem "rspec"
+
+  # Supports using RSpec to test Ruby on Rails applications in place of Rails'
+  #   built-in test framework.
+  #
+  gem "rspec-rails"
+
+  # Acceptance test framework for web applications.
+  #
+  gem "capybara"
+
+  # Strategies for cleaning databases in Ruby. Can be used to ensure a clean
+  #   state for testing.
+  #
+  gem "database_cleaner"
+
+  # This gem implements the rspec command for Spring.
+  #
+  gem "spring-commands-rspec"
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 #
 gem 'rails', '4.1.0'
