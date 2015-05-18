@@ -1,12 +1,12 @@
 class TasksController < ApplicationController
   def index
 
-    # Exmplanation:
+    # Explanation:
     #   locals: locals is a parameter to the method render() to indicate that
     #           will be pass a local variable.
     #
-    #   tasks: the name of local variable.
-    #   tasks: the table.
+    #   first tasks: the name of local variable.
+    #   second tasks: the table.
     #
     render locals: { tasks: rom.relation( :tasks ) }
   end
